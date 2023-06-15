@@ -5,15 +5,15 @@
 <!--		<property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>-->
 		 
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/rcawebapp</property>
-		<property name="hibernate.connection.username">root</property>
-		<property name="hibernate.connection.password">iris@123</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/rcasmis</property>
+		<property name="hibernate.connection.username">sonia</property>
+		<property name="hibernate.connection.password">Karigirwa8.</property>
 		
 		<property name="hibernate.session_factory_name">SmisSessionFactory</property>
 		<property name="hibernate.connection.pool_size">1</property>
 <!--		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>-->
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-<!--		<property name="hibernate.default_schema">rcawebapp</property>-->
+<!--		<property name="hibernate.default_schema">rcasmis</property>-->
 		<property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
 
 		<property name="current_session_context_class">thread</property>

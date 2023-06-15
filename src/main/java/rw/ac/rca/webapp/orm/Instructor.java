@@ -12,10 +12,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
-/**
- * @author Aphrodice Rwagaju
- *
- */
+
 @Entity
 //@DiscriminatorValue("Instuctor")
 public class Instructor extends Person {

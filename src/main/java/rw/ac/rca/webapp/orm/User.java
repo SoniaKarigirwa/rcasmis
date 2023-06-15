@@ -16,10 +16,7 @@ import javax.persistence.Table;
 
 import rw.ac.rca.webapp.util.UserRole;
 
-/**
- * @author Aphrodice Rwagaju
- * 
- */
+
 @Entity
 @Table(name = "user")
 public class User implements Serializable {

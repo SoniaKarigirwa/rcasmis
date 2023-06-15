@@ -12,10 +12,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
-/**
- * @author Aphrodice Rwagaju
- *
- */
+
 @MappedSuperclass
 public abstract class Person implements Serializable{
 	

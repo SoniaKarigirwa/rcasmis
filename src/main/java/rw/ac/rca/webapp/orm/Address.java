@@ -15,10 +15,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
    
-/**
- * @author Aphrodice Rwagaju
- *
- */
+
 @Entity
 @Table(name = "address")
 public class Address implements Serializable{
