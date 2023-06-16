@@ -7,11 +7,7 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import rw.ac.rca.webapp.util.SmisSessionFactory;
 
-/**
- * Data access objects supper class
- * 
- * @author Aphrodice Rwagaju
- */
+
 public class DAO {
 
 	protected DAO() {

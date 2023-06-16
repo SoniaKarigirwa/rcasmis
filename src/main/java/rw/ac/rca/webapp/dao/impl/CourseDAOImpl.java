@@ -9,10 +9,7 @@ import org.hibernate.Query;
 import rw.ac.rca.webapp.dao.CourseDAO;
 import rw.ac.rca.webapp.orm.Course;
 
-/**
- * @author Aphrodice Rwagaju
- *
- */
+
 public class CourseDAOImpl extends DAO implements CourseDAO {
 
 	private static CourseDAOImpl instance;

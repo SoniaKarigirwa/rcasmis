@@ -7,10 +7,7 @@ import java.util.List;
 
 import rw.ac.rca.webapp.orm.Enrol;
 
-/**
- * @author Aphrodice Rwagaju
- *
- */
+
 public interface EnrolDAO {
 	
 	public Enrol saveEnrol(Enrol enrol);
